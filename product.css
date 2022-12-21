@@ -1,0 +1,54 @@
+body {
+    position: relative;
+    max-width: 800px; /* largeur maximale */
+    margin: 0 auto; /* centrer le container */
+    text-align: center;/* centrer le texte */
+  }
+  .blocimages {
+      background-color: #f9f9f9;
+      width: 100%;
+      height: 100%;
+      padding: 15px 15px;
+      border-top: 1px solid #ddd;
+    }
+    
+    /* .images {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    
+    } */
+    
+    .image {
+      display: inline-block;
+      width: 220px;
+      margin-bottom: 50px;
+      background-color: #f6e58d;
+      border: 1px solid #f6e58d;
+      border-radius: 3px;
+      padding-bottom: 20px;
+      margin: 20px;
+    }
+        
+    .imag {
+      width: 100%;
+      height: 220px;
+    }
+    
+    .imag img {
+      object-fit: cover; /* cette propriete definit comment l'image doit s'adapter a son contenu en se referant a sa largeur et sa hauteur */
+      height: 94%;
+      width: 100%;
+      }
+      .image:hover{
+        transform: scale(1.2); /* transformation des images avec une taille de 1.2 au defilement du curseur */
+      }
+      button{
+        background-color: orange;
+        border: 4px solid ;
+        color: white;
+      }
+      button:hover{
+        transform: scale(1.1); /* transformation des images avec une taille de 1.1 au defilement du curseur */
+      }
